@@ -12,42 +12,58 @@ The exchange will encompass the project bidet, developed in another repository. 
 
 ## Projects
 
-### [Kernel](https://github.com/embatbr/kernel)
+### [Ollivander](https://github.com/embatbr/ollivander)
 
-Base code, necessary to deal with databases, queues and any sort of storage system (permanent of ephemeral).
+Base code (kernel), necessary to deal with databases and queues. Code common to most services.
+
+### [Woodie](https://github.com/embatbr/woodie)
+
+Project to unify logging in a common format.
 
 ### [Heimdallr](https://github.com/embatbr/heimdallr)
 
-*Uses Kernel?* **YES**
+- *Ollivander?* **YES**
+- *Woodie?* **YES**
+- *Public?* **NO**
 
 Responsible for registration, authentication and authorization. Higher clearance possible.
 
 ### [Portinari](https://github.com/embatbr/portinari)
 
-*Uses Kernel?* **NO**
+- *Ollivander?* **NO**
+- *Woodie?* **YES**
+- *Public?* **YES**
 
 Front-end responsible for user interface. Returns HTML, JS and updates the graphics.
 
 ### [Termópilas](https://github.com/embatbr/termopilas)
 
-*Uses Kernel?* **NO**
+- *Ollivander?* **NO**
+- *Woodie?* **YES**
+- *Public?* **YES**
 
 Public API. Trading front-end (only part of the trading system connected to the internet).
 
 ### [Bidet](https://github.com/embatbr/bidet)
 
-*Uses Kernel?* **YES**
+- *Ollivander?* **YES**
+- *Woodie?* **YES**
+- *Public?* **NO**
 
 Trading back-end. Validates and stores orders and deals with execution of bids and asks. Accepts requests only from Termopilas.
 
 ### [Franz](https://github.com/embatbr/franz)
 
-*Uses Kernel?* **YES**
+- *Ollivander?* **YES**
+- *Woodie?* **YES**
+- *Public?* **NO**
 
 Responsible for maintain data ordering consistency. Creates Kafka queues and Redis instances.
 
 ### [Shannon](https://github.com/embatbr/shannon)
 
-*Uses Kernel?* **YES**
+- *Ollivander?* **YES**
+- *Woodie?* **YES**
+- *Public?* **NO**
 
 Deals with funding (deposits and withdrawls). Access cryptocurrencies hot and cold wallets.
