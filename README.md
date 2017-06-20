@@ -12,58 +12,46 @@ The exchange will encompass the project bidet, developed in another repository. 
 
 ## Projects
 
-### [Ollivander](https://github.com/embatbr/ollivander)
+### [Pingu](https://github.com/embatbr/iluvatar-pingu)
 
-Base code (kernel), necessary to deal with databases and queues. Code common to most services.
+Base code (kernel), necessary to deal with databases, queues and other sort of low-level functionalities, as well as data representation in many abstraction levels. Code common to all services.
 
-### [Woodie](https://github.com/embatbr/woodie)
+### [Paddy](https://github.com/embatbr/iluvatar-paddy)
 
-Project to unify logging in a common format.
+Unified logging format. The name comes from [Paddy the Beaver](https://en.wikipedia.org/wiki/The_Adventures_of_Paddy_the_Beaver).
 
-### [Heimdallr](https://github.com/embatbr/heimdallr)
+### [Heimdallr](https://github.com/embatbr/iluvatar-heimdallr)
 
-- *Ollivander?* **YES**
-- *Woodie?* **YES**
 - *Public?* **NO**
 
 Responsible for registration, authentication and authorization. Higher clearance possible.
 
-### [Portinari](https://github.com/embatbr/portinari)
+### [Portinari](https://github.com/embatbr/iluvatar-portinari)
 
-- *Ollivander?* **NO**
-- *Woodie?* **YES**
 - *Public?* **YES**
 
 Front-end responsible for user interface. Returns HTML, JS and updates the graphics.
 
-### [Termópilas](https://github.com/embatbr/termopilas)
+### [Termópilas](https://github.com/embatbr/iluvatar-termopilas)
 
-- *Ollivander?* **NO**
-- *Woodie?* **YES**
 - *Public?* **YES**
 
 Public API. Trading front-end (only part of the trading system connected to the internet).
 
-### [Bidet](https://github.com/embatbr/bidet)
+### [Bidet](https://github.com/embatbr/iluvatar-bidet)
 
-- *Ollivander?* **YES**
-- *Woodie?* **YES**
 - *Public?* **NO**
 
 Trading back-end. Validates and stores orders and deals with execution of bids and asks. Accepts requests only from Termopilas.
 
-### [Franz](https://github.com/embatbr/franz)
+### [Franz](https://github.com/embatbr/iluvatar-franz)
 
-- *Ollivander?* **YES**
-- *Woodie?* **YES**
 - *Public?* **NO**
 
 Responsible for maintain data ordering consistency. Creates Kafka queues and Redis instances.
 
-### [Shannon](https://github.com/embatbr/shannon)
+### [Shannon](https://github.com/embatbr/iluvatar-shannon)
 
-- *Ollivander?* **YES**
-- *Woodie?* **YES**
 - *Public?* **NO**
 
 Deals with funding (deposits and withdrawls). Access cryptocurrencies hot and cold wallets.
