@@ -16,15 +16,17 @@ The exchange will encompass the project bidet, developed in another repository. 
 
 Base code (kernel), necessary to deal with databases, queues and other sort of low-level functionalities, as well as data representation in many abstraction levels. Code common to all services.
 
-### [Paddy](https://github.com/embatbr/iluvatar-paddy)
-
-Unified logging format. The name comes from [Paddy the Beaver](https://en.wikipedia.org/wiki/The_Adventures_of_Paddy_the_Beaver).
-
 ### [Heimdallr](https://github.com/embatbr/iluvatar-heimdallr)
 
 - *Public?* **NO**
 
 Responsible for registration, authentication and authorization. Higher clearance possible.
+
+### [Isimud](https://github.com/embatbr/iluvatar-isimud)
+
+- *Public?* **NO**
+
+Messaging system (email, push notifications and etc.)
 
 ### [Portinari](https://github.com/embatbr/iluvatar-portinari)
 
@@ -50,8 +52,8 @@ Trading back-end. Validates and stores orders and deals with execution of bids a
 
 Responsible for maintain data ordering consistency. Creates Kafka queues and Redis instances.
 
-### [Shannon](https://github.com/embatbr/iluvatar-shannon)
+### [Soroban](https://github.com/embatbr/iluvatar-soroban)
 
 - *Public?* **NO**
 
-Deals with funding (deposits and withdrawls). Access cryptocurrencies hot and cold wallets.
+Deals with funding (deposits and withdrawls) in conjunction with Heimdallr. Access cryptocurrencies hot and cold wallets.
