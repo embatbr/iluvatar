@@ -12,10 +12,6 @@ The exchange will encompass the project bidet, developed in another repository. 
 
 ## Projects
 
-### [Pingu](https://github.com/embatbr/iluvatar-pingu)
-
-Base code (kernel), necessary to deal with databases, queues and other sort of low-level functionalities, as well as data representation in many abstraction levels. Code common to all services.
-
 ### [Heimdallr](https://github.com/embatbr/iluvatar-heimdallr)
 
 - *Public?* **NO**
@@ -34,7 +30,7 @@ Messaging system (email, push notifications and etc.)
 
 Front-end responsible for user interface. Returns HTML, JS and updates the graphics.
 
-### [Termópilas](https://github.com/embatbr/iluvatar-termopilas)
+### [Nasdaq](https://github.com/embatbr/iluvatar-nasdaq)
 
 - *Public?* **YES**
 
