@@ -1,5 +1,9 @@
 # Ilúvatar
 
+<p align="center">
+    <img src="logo.jpg" />
+</p>
+
 Main repository for [Ilúvatar Exchange](https://www.iluvatar.exchange).
 
 This is the main repository for all code related to the Ilúvatar Exchange. Any document about macro development planning (aka not bounded to a single project) and non-development subjects (e.g., commercial strategy) must be kept here.
@@ -46,7 +50,7 @@ Trading back-end. Validates and stores orders and deals with execution of bids a
 
 - *Public?* **NO**
 
-Responsible for maintain data ordering consistency. Creates Kafka queues and Redis instances.
+Responsible for maintain data ordering consistency. Creates Kafka queues, Redis instances and any other infrastructure needed.
 
 ### [Soroban](https://github.com/embatbr/iluvatar-soroban)
 
